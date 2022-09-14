@@ -1,6 +1,8 @@
+s = input()
+print(s)
+
 n = int(input())
 print(n)
 
-'''
-print input
-'''
+f = float(input())
+print(f)
