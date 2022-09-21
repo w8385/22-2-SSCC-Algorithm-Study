@@ -1,14 +1,27 @@
+# if, elif, else
 n = int(input())
 
 if n == 0:
-    print("SSCC")
-elif n > 0:
-    for i in range(n):
-        print("SSCC")
+    print("is zero")
+elif 0 < n:
+    print("is positive")
 else:
-    while n < 0:
-        print("SSCC")
-        n += 1
+    print("is negative")
+
+# for
+f = int(input())
+
+for i in range(f):
+    print(i, end=" ")
+print()
+
+# while
+w = int(input())
+
+while 0 < w:
+    w -= 1
+    print(w, end=" ")
+
 
 '''
 when input is 0, print SSCC once

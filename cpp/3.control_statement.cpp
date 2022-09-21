@@ -1,23 +1,36 @@
 #include <stdio.h>
 
 int main(){
+    // if, else
     int n;
     scanf("%d", &n);
 
     if(n == 0){
-        printf("SSCC\n");
+        printf("is zero\n");
     }
-    else if(n > 0){
-        for(int i = 0; i < n; i++){
-            printf("SSCC\n");
-        }
+    else if(0 < n){
+        printf("is positive\n");
     }
     else{
-        while(n < 0) {
-            printf("SSCC\n");
-            n++;
-        }
+        printf("is negative\n");
     }
+
+    // for
+    int f;
+    scanf("%d", &f);
+
+    for(int i = 0; i < f; i++)
+        printf("%d ", i);
+    printf("\n");
+
+    // while
+    int w;
+    scanf("%d", &w);
+
+    while(w--)
+        printf("%d ", w);
+
+
 
     return 0;
 }
